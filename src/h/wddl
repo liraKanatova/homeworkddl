@@ -1,0 +1,21 @@
+--SELECT customerName, city FROM customers;
+--SELECT DISTINCT country FROM customers;
+--SELECT  DISTINCT country,COUNT() FROM customers GROUP BY country;
+--SELECT customerName,country FROM customers WHERE country='Mexico';
+--SELECT customerName,city,address FROM customers WHERE CustomerId=1;
+--SELECT * FROM customers WHERE country='Germany' OR country='Spain';
+--SELECT * FROM customers ORDER BY customerName DESC;
+--SELECT * FROM customers ORDER BY country;
+--SELECT * FROM Products
+--SELECT MIN(Price) FROM products;
+--SELECT COUNT(*)FROM products;
+--SELECT * FROM Customers;
+--SELECT * FROM customers WHERE customerName LIKE 'A%';
+--SELECT * FROM customers WHERE country='Germany'OR country='France' OR country='Italy';
+--SELECT * FROM Suppliers;
+--SELECT * FROM customers;
+SELECT * FROM suppliers,customers WHERE suppliers.country=customers.country;
+-SELECT * FROM Orders;
+--SELECT * FROM Orders WHERE orderDate between '1996-01-01' AND '1996-12-31';
+
+
